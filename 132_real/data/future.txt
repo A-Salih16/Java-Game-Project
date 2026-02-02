@@ -1,0 +1,3 @@
+Era: Future
+Food Chain 1: Alien Overlord, Alien Hunter, Human, Cow
+Food Chain 2: Leviathan, Cyborg, Robot, Energy Node

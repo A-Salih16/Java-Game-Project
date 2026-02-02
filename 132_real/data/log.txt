@@ -1,0 +1,1121 @@
+GAME START era=PAST chain=T-Rex, Velociraptor, Triceratops, Ferns
+ROUND BEGIN round=1
+MOVE role=PREY from=(2,1) to=(2,2) target=EMPTY
+MOVE role=PREDATOR from=(0,3) to=(0,5) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(4,2) to=(2,2) target=PREY
+SCORE role=APEX delta=+1
+SCORE role=PREY delta=-1
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(0,1) to=(0,0) target=EMPTY
+MOVE role=PREDATOR from=(0,5) to=(1,5) target=EMPTY
+MOVE role=APEX from=(2,2) to=(1,1) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(0,0) to=(2,2) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(1,5) to=(3,5) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(1,1) to=(2,2) target=PREY
+SCORE role=APEX delta=+1
+SCORE role=PREY delta=-1
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(7,4) to=(6,3) target=EMPTY
+MOVE role=PREDATOR from=(3,5) to=(3,4) target=EMPTY
+MOVE role=APEX from=(2,2) to=(2,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=5
+MOVE role=PREY from=(6,3) to=(4,4) target=FOOD
+SCORE role=PREY delta=+3
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(3,4) to=(4,4) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+MOVE role=APEX from=(2,3) to=(3,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=6
+MOVE role=PREY from=(9,4) to=(8,3) target=EMPTY
+MOVE role=PREDATOR from=(4,4) to=(6,4) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(3,3) to=(5,3) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=7
+MOVE role=PREY from=(8,3) to=(6,1) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(6,4) to=(7,5) target=EMPTY
+MOVE role=APEX from=(5,3) to=(5,2) target=EMPTY
+ROUND END
+ROUND BEGIN round=8
+MOVE role=PREY from=(6,1) to=(5,0) target=EMPTY
+MOVE role=PREDATOR from=(7,5) to=(5,5) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(5,2) to=(4,1) target=EMPTY
+ROUND END
+ROUND BEGIN round=9
+MOVE role=PREY from=(5,0) to=(6,0) target=EMPTY
+MOVE role=PREDATOR from=(5,5) to=(4,4) target=EMPTY
+MOVE role=APEX from=(4,1) to=(4,3) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=10
+MOVE role=PREY from=(6,0) to=(4,0) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(4,4) to=(2,4) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(4,3) to=(3,3) target=EMPTY
+ROUND END
+GAME OVER PREDATOR wins | scores: prey=0 predator=3 apex=2
+GAME START era=PAST chain=Giganotosaurus, Allosaurus, Stegosaurus, Cycads
+ROUND BEGIN round=1
+MOVE role=PREY from=(0,3) to=(2,5) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(1,3) to=(3,3) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(5,8) to=(3,6) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(2,5) to=(1,6) target=EMPTY
+MOVE role=PREDATOR from=(3,3) to=(4,4) target=EMPTY
+MOVE role=APEX from=(3,6) to=(2,5) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(1,6) to=(2,7) target=EMPTY
+MOVE role=PREDATOR from=(4,4) to=(5,5) target=EMPTY
+MOVE role=APEX from=(2,5) to=(1,6) target=EMPTY
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(2,7) to=(4,5) target=FOOD
+SCORE role=PREY delta=+3
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(5,5) to=(4,5) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+MOVE role=APEX from=(1,6) to=(3,4) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=5
+MOVE role=PREY from=(6,8) to=(7,7) target=EMPTY
+MOVE role=PREDATOR from=(4,5) to=(6,5) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(3,4) to=(4,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=6
+MOVE role=PREY from=(7,7) to=(8,5) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(6,5) to=(7,4) target=EMPTY
+MOVE role=APEX from=(4,3) to=(5,2) target=EMPTY
+ROUND END
+ROUND BEGIN round=7
+MOVE role=PREY from=(8,5) to=(7,6) target=EMPTY
+MOVE role=PREDATOR from=(7,4) to=(7,6) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(5,2) to=(5,4) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=8
+MOVE role=PREY from=(8,7) to=(9,5) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(7,6) to=(8,5) target=EMPTY
+MOVE role=APEX from=(5,4) to=(6,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=9
+MOVE role=PREY from=(9,5) to=(8,4) target=EMPTY
+MOVE role=PREDATOR from=(8,5) to=(8,4) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+MOVE role=APEX from=(6,3) to=(6,4) target=PREY
+SCORE role=APEX delta=+1
+SCORE role=PREY delta=-1
+ROUND END
+ROUND BEGIN round=10
+MOVE role=PREY from=(5,4) to=(3,2) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(8,4) to=(8,2) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(6,4) to=(8,2) target=PREDATOR
+SCORE role=APEX delta=+1
+SCORE role=PREDATOR delta=-1
+COOLDOWN role=APEX set=2
+ROUND END
+GAME OVER PREDATOR wins | scores: prey=-1 predator=8 apex=2
+GAME START era=PAST chain=T-Rex, Velociraptor, Triceratops, Ferns
+ROUND BEGIN round=1
+MOVE role=PREY from=(8,2) to=(6,0) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(1,6) to=(3,6) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(8,8) to=(6,6) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(6,0) to=(5,0) target=EMPTY
+MOVE role=PREDATOR from=(3,6) to=(2,5) target=EMPTY
+MOVE role=APEX from=(6,6) to=(5,5) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(5,0) to=(3,2) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(2,5) to=(1,4) target=EMPTY
+MOVE role=APEX from=(5,5) to=(4,4) target=EMPTY
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(3,2) to=(2,3) target=FOOD
+SCORE role=PREY delta=+3
+MOVE role=PREDATOR from=(1,4) to=(2,3) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+MOVE role=APEX from=(4,4) to=(2,2) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=5
+MOVE role=PREY from=(8,9) to=(6,9) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(2,3) to=(2,5) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(2,2) to=(1,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=6
+MOVE role=PREY from=(6,9) to=(5,9) target=EMPTY
+MOVE role=PREDATOR from=(2,5) to=(1,6) target=EMPTY
+MOVE role=APEX from=(1,3) to=(0,4) target=EMPTY
+ROUND END
+ROUND BEGIN round=7
+MOVE role=PREY from=(5,9) to=(3,7) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(1,6) to=(2,5) target=EMPTY
+MOVE role=APEX from=(0,4) to=(1,4) target=EMPTY
+ROUND END
+ROUND BEGIN round=8
+MOVE role=PREY from=(3,7) to=(2,7) target=EMPTY
+MOVE role=PREDATOR from=(2,5) to=(2,7) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(1,4) to=(1,6) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=9
+MOVE role=PREY from=(9,8) to=(7,6) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(2,7) to=(3,6) target=EMPTY
+MOVE role=APEX from=(1,6) to=(2,5) target=EMPTY
+ROUND END
+ROUND BEGIN round=10
+MOVE role=PREY from=(7,6) to=(6,5) target=EMPTY
+MOVE role=PREDATOR from=(3,6) to=(4,5) target=EMPTY
+MOVE role=APEX from=(2,5) to=(3,4) target=EMPTY
+ROUND END
+GAME OVER PREDATOR wins | scores: prey=1 predator=6 apex=0
+GAME START era=PAST chain=T-Rex, Velociraptor, Triceratops, Ferns
+ROUND BEGIN round=1
+MOVE role=PREY from=(5,2) to=(3,4) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(9,7) to=(7,7) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(5,3) to=(3,3) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(3,4) to=(2,5) target=EMPTY
+SKIP TURN role=PREDATOR
+MOVE role=APEX from=(3,3) to=(2,4) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(2,5) to=(2,7) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(7,7) to=(5,7) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(2,4) to=(1,5) target=EMPTY
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(2,7) to=(3,8) target=EMPTY
+MOVE role=PREDATOR from=(5,7) to=(4,6) target=EMPTY
+MOVE role=APEX from=(1,5) to=(3,5) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=5
+MOVE role=PREY from=(3,8) to=(4,9) target=FOOD
+SCORE role=PREY delta=+3
+SKIP TURN role=PREDATOR
+MOVE role=APEX from=(3,5) to=(4,6) target=PREDATOR
+SCORE role=APEX delta=+1
+SCORE role=PREDATOR delta=-1
+ROUND END
+ROUND BEGIN round=6
+MOVE role=PREY from=(4,9) to=(6,7) target=EMPTY
+COOLDOWN role=PREY set=2
+GAME START era=PAST chain=Giganotosaurus, Allosaurus, Stegosaurus, Cycads
+ROUND BEGIN round=1
+MOVE role=PREY from=(5,13) to=(7,11) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(9,13) to=(11,13) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(1,10) to=(3,8) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(7,11) to=(8,10) target=EMPTY
+MOVE role=PREDATOR from=(11,13) to=(12,13) target=EMPTY
+MOVE role=APEX from=(3,8) to=(4,7) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(8,10) to=(10,8) target=EMPTY
+COOLDOWN role=PREY set=2
+GAME START era=PAST chain=T-Rex, Velociraptor, Triceratops, Ferns
+ROUND BEGIN round=1
+MOVE role=PREY from=(1,0) to=(3,0) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(7,6) to=(7,8) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(6,5) to=(6,7) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(3,0) to=(4,0) target=EMPTY
+MOVE role=PREDATOR from=(7,8) to=(8,7) target=EMPTY
+MOVE role=APEX from=(6,7) to=(7,6) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(4,0) to=(6,2) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(8,7) to=(8,9) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(7,6) to=(6,7) target=EMPTY
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(6,2) to=(7,3) target=EMPTY
+MOVE role=PREDATOR from=(8,9) to=(9,9) target=EMPTY
+MOVE role=APEX from=(6,7) to=(8,9) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=5
+MOVE role=PREY from=(7,3) to=(9,5) target=FOOD
+SCORE role=PREY delta=+3
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(9,9) to=(9,7) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(8,9) to=(8,8) target=EMPTY
+ROUND END
+ROUND BEGIN round=6
+MOVE role=PREY from=(9,5) to=(8,5) target=EMPTY
+MOVE role=PREDATOR from=(9,7) to=(8,6) target=EMPTY
+MOVE role=APEX from=(8,8) to=(7,7) target=EMPTY
+ROUND END
+ROUND BEGIN round=7
+MOVE role=PREY from=(8,5) to=(6,5) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(8,6) to=(7,5) target=EMPTY
+MOVE role=APEX from=(7,7) to=(7,5) target=PREDATOR
+SCORE role=APEX delta=+1
+SCORE role=PREDATOR delta=-1
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=8
+MOVE role=PREY from=(6,5) to=(5,4) target=EMPTY
+MOVE role=PREDATOR from=(5,6) to=(5,4) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(7,5) to=(6,6) target=PREY
+SCORE role=APEX delta=+1
+SCORE role=PREY delta=-1
+ROUND END
+ROUND BEGIN round=9
+MOVE role=PREY from=(5,0) to=(3,2) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(5,4) to=(4,5) target=EMPTY
+MOVE role=APEX from=(6,6) to=(5,5) target=EMPTY
+ROUND END
+ROUND BEGIN round=10
+MOVE role=PREY from=(3,2) to=(2,3) target=EMPTY
+MOVE role=PREDATOR from=(4,5) to=(2,5) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(5,5) to=(3,3) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+GAME OVER PREDATOR & APEX wins | scores: prey=1 predator=2 apex=2
+GAME START era=PRESENT chain=Lion, Cheetah, Bunny, Grass
+ROUND BEGIN round=1
+MOVE role=PREY from=(9,0) to=(7,0) target=EMPTY
+COOLDOWN role=PREY set=3
+MOVE role=PREDATOR from=(1,0) to=(2,1) target=EMPTY
+MOVE role=APEX from=(5,1) to=(2,1) target=PREDATOR
+SCORE role=APEX delta=+1
+SCORE role=PREDATOR delta=-1
+COOLDOWN role=APEX set=3
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(7,0) to=(6,1) target=EMPTY
+MOVE role=PREDATOR from=(5,7) to=(4,6) target=EMPTY
+MOVE role=APEX from=(2,1) to=(3,0) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(6,1) to=(5,2) target=EMPTY
+GAME START era=PAST chain=T-Rex, Velociraptor, Triceratops, Ferns
+ROUND BEGIN round=1
+MOVE role=PREY from=(6,1) to=(4,0) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(8,0) to=(6,0) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(0,4) to=(2,2) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(4,0) to=(3,0) target=EMPTY
+MOVE role=PREDATOR from=(6,0) to=(5,0) target=EMPTY
+MOVE role=APEX from=(2,2) to=(2,1) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(3,0) to=(1,0) target=FOOD
+SCORE role=PREY delta=+3
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(5,0) to=(5,2) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(2,1) to=(1,0) target=PREY
+SCORE role=APEX delta=+1
+SCORE role=PREY delta=-1
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(9,1) to=(8,1) target=EMPTY
+MOVE role=PREDATOR from=(5,2) to=(6,2) target=EMPTY
+MOVE role=APEX from=(1,0) to=(3,0) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=5
+MOVE role=PREY from=(8,1) to=(7,2) target=FOOD
+SCORE role=PREY delta=+3
+MOVE role=PREDATOR from=(6,2) to=(7,2) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+MOVE role=APEX from=(3,0) to=(4,0) target=EMPTY
+ROUND END
+ROUND BEGIN round=6
+MOVE role=PREY from=(8,5) to=(9,6) target=FOOD
+SCORE role=PREY delta=+3
+MOVE role=PREDATOR from=(7,2) to=(8,1) target=EMPTY
+MOVE role=APEX from=(4,0) to=(5,0) target=EMPTY
+ROUND END
+ROUND BEGIN round=7
+MOVE role=PREY from=(9,6) to=(7,4) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(8,1) to=(8,0) target=EMPTY
+MOVE role=APEX from=(5,0) to=(5,2) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=8
+MOVE role=PREY from=(7,4) to=(8,3) target=EMPTY
+SKIP TURN role=PREDATOR
+MOVE role=APEX from=(5,2) to=(6,1) target=EMPTY
+ROUND END
+ROUND BEGIN round=9
+MOVE role=PREY from=(8,3) to=(9,2) target=EMPTY
+SKIP TURN role=PREDATOR
+MOVE role=APEX from=(6,1) to=(7,1) target=EMPTY
+ROUND END
+ROUND BEGIN round=10
+MOVE role=PREY from=(9,2) to=(7,0) target=FOOD
+SCORE role=PREY delta=+3
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(8,0) to=(7,0) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+MOVE role=APEX from=(7,1) to=(7,0) target=PREDATOR
+SCORE role=APEX delta=+1
+SCORE role=PREDATOR delta=-1
+ROUND END
+GAME OVER PREY wins | scores: prey=9 predator=5 apex=2
+GAME START era=PAST chain=T-Rex, Velociraptor, Triceratops, Ferns
+ROUND BEGIN round=1
+MOVE role=PREY from=(6,9) to=(7,7) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(7,3) to=(7,5) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(4,5) to=(6,5) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(7,7) to=(6,7) target=EMPTY
+MOVE role=PREDATOR from=(7,5) to=(8,4) target=EMPTY
+MOVE role=APEX from=(6,5) to=(5,6) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(6,7) to=(7,7) target=EMPTY
+MOVE role=PREDATOR from=(8,4) to=(7,3) target=EMPTY
+MOVE role=APEX from=(5,6) to=(6,6) target=EMPTY
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(7,7) to=(5,8) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(7,3) to=(5,3) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(6,6) to=(4,8) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=5
+MOVE role=PREY from=(5,8) to=(6,7) target=EMPTY
+MOVE role=PREDATOR from=(5,3) to=(5,4) target=EMPTY
+MOVE role=APEX from=(4,8) to=(5,7) target=EMPTY
+ROUND END
+ROUND BEGIN round=6
+MOVE role=PREY from=(6,7) to=(7,7) target=EMPTY
+SKIP TURN role=PREDATOR
+MOVE role=APEX from=(5,7) to=(6,6) target=EMPTY
+ROUND END
+ROUND BEGIN round=7
+MOVE role=PREY from=(7,7) to=(5,8) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(5,4) to=(4,3) target=EMPTY
+MOVE role=APEX from=(6,6) to=(4,8) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=8
+MOVE role=PREY from=(5,8) to=(6,7) target=EMPTY
+MOVE role=PREDATOR from=(4,3) to=(5,4) target=EMPTY
+MOVE role=APEX from=(4,8) to=(5,7) target=EMPTY
+ROUND END
+ROUND BEGIN round=9
+MOVE role=PREY from=(6,7) to=(7,7) target=EMPTY
+SKIP TURN role=PREDATOR
+MOVE role=APEX from=(5,7) to=(6,6) target=EMPTY
+ROUND END
+ROUND BEGIN round=10
+MOVE role=PREY from=(7,7) to=(5,8) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(5,4) to=(4,3) target=EMPTY
+MOVE role=APEX from=(6,6) to=(4,8) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+GAME OVER PREY & PREDATOR & APEX wins | scores: prey=0 predator=0 apex=0
+GAME START era=PAST chain=T-Rex, Velociraptor, Triceratops, Ferns
+ROUND BEGIN round=1
+MOVE role=PREY from=(8,5) to=(9,3) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(4,3) to=(6,3) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(7,7) to=(5,5) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(9,3) to=(8,2) target=FOOD
+SCORE role=PREY delta=+3
+MOVE role=PREDATOR from=(6,3) to=(7,2) target=EMPTY
+MOVE role=APEX from=(5,5) to=(5,4) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(8,2) to=(9,0) target=FOOD
+SCORE role=PREY delta=+3
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(7,2) to=(8,1) target=EMPTY
+MOVE role=APEX from=(5,4) to=(6,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(9,0) to=(9,1) target=EMPTY
+MOVE role=PREDATOR from=(8,1) to=(9,1) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+MOVE role=APEX from=(6,3) to=(8,1) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=5
+MOVE role=PREY from=(0,0) to=(1,2) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(9,1) to=(9,3) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(8,1) to=(8,2) target=EMPTY
+ROUND END
+ROUND BEGIN round=6
+MOVE role=PREY from=(1,2) to=(2,3) target=EMPTY
+MOVE role=PREDATOR from=(9,3) to=(9,4) target=EMPTY
+MOVE role=APEX from=(8,2) to=(8,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=7
+MOVE role=PREY from=(2,3) to=(4,5) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(9,4) to=(9,6) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(8,3) to=(8,5) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=8
+MOVE role=PREY from=(4,5) to=(5,6) target=EMPTY
+MOVE role=PREDATOR from=(9,6) to=(8,7) target=EMPTY
+MOVE role=APEX from=(8,5) to=(7,6) target=EMPTY
+ROUND END
+ROUND BEGIN round=9
+MOVE role=PREY from=(5,6) to=(7,8) target=FOOD
+SCORE role=PREY delta=+3
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(8,7) to=(7,8) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+MOVE role=APEX from=(7,6) to=(6,7) target=EMPTY
+ROUND END
+ROUND BEGIN round=10
+MOVE role=PREY from=(9,0) to=(8,1) target=EMPTY
+MOVE role=PREDATOR from=(7,8) to=(9,8) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(6,7) to=(8,7) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+GAME OVER PREY wins | scores: prey=7 predator=6 apex=0
+GAME START era=PAST chain=T-Rex, Velociraptor, Triceratops, Ferns
+ROUND BEGIN round=1
+MOVE role=PREY from=(6,5) to=(8,3) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(2,3) to=(2,1) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(6,4) to=(7,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(8,3) to=(7,2) target=FOOD
+SCORE role=PREY delta=+3
+MOVE role=PREDATOR from=(2,1) to=(3,2) target=EMPTY
+MOVE role=APEX from=(7,3) to=(7,2) target=PREY
+SCORE role=APEX delta=+1
+SCORE role=PREY delta=-1
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(6,1) to=(4,0) target=EMPTY
+COOLDOWN role=PREY set=2
+SKIP TURN role=PREDATOR
+MOVE role=APEX from=(7,2) to=(5,0) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(4,0) to=(3,0) target=EMPTY
+MOVE role=PREDATOR from=(3,2) to=(3,0) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(5,0) to=(4,0) target=PREY
+SCORE role=APEX delta=+1
+SCORE role=PREY delta=-1
+ROUND END
+ROUND BEGIN round=5
+MOVE role=PREY from=(4,4) to=(2,2) target=FOOD
+SCORE role=PREY delta=+3
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(3,0) to=(2,1) target=EMPTY
+MOVE role=APEX from=(4,0) to=(3,0) target=EMPTY
+ROUND END
+ROUND BEGIN round=6
+MOVE role=PREY from=(2,2) to=(2,3) target=EMPTY
+MOVE role=PREDATOR from=(2,1) to=(2,3) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(3,0) to=(1,2) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=7
+MOVE role=PREY from=(1,5) to=(0,5) target=EMPTY
+MOVE role=PREDATOR from=(2,3) to=(3,4) target=EMPTY
+MOVE role=APEX from=(1,2) to=(2,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=8
+MOVE role=PREY from=(0,5) to=(0,3) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(3,4) to=(5,4) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(2,3) to=(1,2) target=EMPTY
+ROUND END
+ROUND BEGIN round=9
+MOVE role=PREY from=(0,3) to=(1,4) target=EMPTY
+MOVE role=PREDATOR from=(5,4) to=(5,3) target=EMPTY
+MOVE role=APEX from=(1,2) to=(1,4) target=PREY
+SCORE role=APEX delta=+1
+SCORE role=PREY delta=-1
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=10
+MOVE role=PREY from=(9,3) to=(7,1) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(5,3) to=(5,1) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(1,4) to=(2,3) target=EMPTY
+ROUND END
+GAME OVER PREDATOR wins | scores: prey=1 predator=6 apex=3
+GAME START era=PAST chain=Giganotosaurus, Allosaurus, Stegosaurus, Cycads
+ROUND BEGIN round=1
+MOVE role=PREY from=(8,7) to=(6,5) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(1,5) to=(3,5) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(2,8) to=(2,6) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(6,5) to=(5,4) target=EMPTY
+MOVE role=PREDATOR from=(3,5) to=(4,6) target=EMPTY
+MOVE role=APEX from=(2,6) to=(3,5) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(5,4) to=(3,6) target=FOOD
+SCORE role=PREY delta=+3
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(4,6) to=(3,6) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+MOVE role=APEX from=(3,5) to=(3,6) target=PREDATOR
+SCORE role=APEX delta=+1
+SCORE role=PREDATOR delta=-1
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(0,5) to=(0,4) target=EMPTY
+GAME START era=PRESENT chain=Polar Bear, Wolf, Deer, Shrubs
+ROUND BEGIN round=1
+MOVE role=PREY from=(9,9) to=(9,7) target=EMPTY
+COOLDOWN role=PREY set=3
+MOVE role=PREDATOR from=(6,5) to=(7,4) target=EMPTY
+MOVE role=PREDATOR from=(7,4) to=(8,5) target=EMPTY
+MOVE role=APEX from=(5,5) to=(8,5) target=PREDATOR
+SCORE role=APEX delta=+1
+SCORE role=PREDATOR delta=-1
+COOLDOWN role=APEX set=3
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(9,7) to=(8,7) target=EMPTY
+MOVE role=PREDATOR from=(5,1) to=(4,0) target=EMPTY
+MOVE role=APEX from=(8,5) to=(7,6) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(8,7) to=(9,6) target=EMPTY
+SKIP TURN role=PREDATOR
+MOVE role=APEX from=(7,6) to=(8,5) target=EMPTY
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(9,6) to=(7,7) target=EMPTY
+COOLDOWN role=PREY set=3
+GAME START era=FUTURE chain=Leviathan, Cyborg, Robot, Energy Node
+ROUND BEGIN round=1
+MOVE role=PREY from=(2,5) to=(1,2) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(0,0) to=(0,1) target=EMPTY
+MOVE role=APEX from=(7,6) to=(4,3) target=EMPTY
+COOLDOWN role=APEX set=3
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(1,2) to=(0,2) target=FOOD
+SCORE role=PREY delta=+3
+MOVE role=PREDATOR from=(0,1) to=(0,2) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+MOVE role=APEX from=(4,3) to=(3,2) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(1,7) to=(4,4) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(0,2) to=(0,4) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(3,2) to=(3,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(4,4) to=(5,3) target=EMPTY
+MOVE role=PREDATOR from=(0,4) to=(0,5) target=EMPTY
+MOVE role=APEX from=(3,3) to=(4,2) target=EMPTY
+ROUND END
+ROUND BEGIN round=5
+MOVE role=PREY from=(5,3) to=(2,1) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(0,5) to=(0,3) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(4,2) to=(2,1) target=PREY
+SCORE role=APEX delta=+1
+SCORE role=PREY delta=-1
+COOLDOWN role=APEX set=3
+ROUND END
+ROUND BEGIN round=6
+MOVE role=PREY from=(9,2) to=(8,1) target=EMPTY
+MOVE role=PREDATOR from=(0,3) to=(1,4) target=EMPTY
+MOVE role=APEX from=(2,1) to=(1,2) target=EMPTY
+ROUND END
+ROUND BEGIN round=7
+MOVE role=PREY from=(8,1) to=(5,0) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(1,4) to=(3,6) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(1,2) to=(0,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=8
+MOVE role=PREY from=(5,0) to=(4,0) target=EMPTY
+MOVE role=PREDATOR from=(3,6) to=(4,5) target=EMPTY
+MOVE role=APEX from=(0,3) to=(1,2) target=EMPTY
+ROUND END
+ROUND BEGIN round=9
+MOVE role=PREY from=(4,0) to=(3,1) target=EMPTY
+MOVE role=PREDATOR from=(4,5) to=(4,3) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(1,2) to=(3,1) target=PREY
+SCORE role=APEX delta=+1
+SCORE role=PREY delta=-1
+COOLDOWN role=APEX set=3
+ROUND END
+ROUND BEGIN round=10
+MOVE role=PREY from=(1,7) to=(0,4) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(4,3) to=(3,4) target=EMPTY
+MOVE role=APEX from=(3,1) to=(3,2) target=EMPTY
+ROUND END
+GAME OVER PREDATOR wins | scores: prey=0 predator=3 apex=2
+GAME START era=FUTURE chain=Alien Overlord, Alien Hunter, Human, Cow
+ROUND BEGIN round=1
+MOVE role=PREY from=(0,6) to=(3,4) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(3,9) to=(5,7) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(6,1) to=(3,4) target=PREY
+SCORE role=APEX delta=+1
+SCORE role=PREY delta=-1
+COOLDOWN role=APEX set=3
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(4,2) to=(5,3) target=EMPTY
+MOVE role=PREDATOR from=(5,7) to=(6,8) target=EMPTY
+MOVE role=APEX from=(3,4) to=(4,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(5,3) to=(5,6) target=EMPTY
+COOLDOWN role=PREY set=2
+SKIP TURN role=PREDATOR
+MOVE role=APEX from=(4,3) to=(3,4) target=EMPTY
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(5,6) to=(6,7) target=FOOD
+SCORE role=PREY delta=+3
+MOVE role=PREDATOR from=(6,8) to=(6,7) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+MOVE role=APEX from=(3,4) to=(2,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=5
+MOVE role=PREY from=(1,4) to=(4,1) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(6,7) to=(8,5) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(2,3) to=(4,1) target=PREY
+SCORE role=APEX delta=+1
+SCORE role=PREY delta=-1
+COOLDOWN role=APEX set=3
+ROUND END
+ROUND BEGIN round=6
+MOVE role=PREY from=(7,0) to=(8,1) target=EMPTY
+MOVE role=PREDATOR from=(8,5) to=(8,4) target=EMPTY
+MOVE role=APEX from=(4,1) to=(5,0) target=EMPTY
+ROUND END
+ROUND BEGIN round=7
+MOVE role=PREY from=(8,1) to=(6,4) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(8,4) to=(6,4) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(5,0) to=(4,1) target=EMPTY
+ROUND END
+ROUND BEGIN round=8
+MOVE role=PREY from=(0,7) to=(1,8) target=EMPTY
+MOVE role=PREDATOR from=(6,4) to=(7,5) target=EMPTY
+MOVE role=APEX from=(4,1) to=(4,2) target=EMPTY
+ROUND END
+ROUND BEGIN round=9
+MOVE role=PREY from=(1,8) to=(4,9) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(7,5) to=(9,7) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(4,2) to=(7,5) target=EMPTY
+COOLDOWN role=APEX set=3
+ROUND END
+ROUND BEGIN round=10
+MOVE role=PREY from=(4,9) to=(5,9) target=EMPTY
+MOVE role=PREDATOR from=(9,7) to=(8,8) target=EMPTY
+MOVE role=APEX from=(7,5) to=(6,6) target=EMPTY
+ROUND END
+GAME OVER PREDATOR wins | scores: prey=-1 predator=6 apex=2
+GAME START era=FUTURE chain=Alien Overlord, Alien Hunter, Human, Cow
+ROUND BEGIN round=1
+MOVE role=PREY from=(3,9) to=(6,6) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(1,3) to=(1,5) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(4,2) to=(1,5) target=PREDATOR
+SCORE role=APEX delta=+1
+SCORE role=PREDATOR delta=-1
+COOLDOWN role=APEX set=3
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(6,6) to=(7,5) target=EMPTY
+MOVE role=PREDATOR from=(2,8) to=(3,8) target=EMPTY
+MOVE role=APEX from=(1,5) to=(1,6) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(7,5) to=(4,2) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(3,8) to=(5,6) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(1,6) to=(1,5) target=EMPTY
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(4,2) to=(4,1) target=FOOD
+SCORE role=PREY delta=+3
+MOVE role=PREDATOR from=(5,6) to=(6,5) target=EMPTY
+MOVE role=APEX from=(1,5) to=(1,4) target=EMPTY
+ROUND END
+ROUND BEGIN round=5
+MOVE role=PREY from=(4,1) to=(7,0) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(6,5) to=(8,3) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(1,4) to=(4,1) target=EMPTY
+COOLDOWN role=APEX set=3
+ROUND END
+ROUND BEGIN round=6
+MOVE role=PREY from=(7,0) to=(8,0) target=FOOD
+SCORE role=PREY delta=+3
+MOVE role=PREDATOR from=(8,3) to=(8,4) target=EMPTY
+MOVE role=APEX from=(4,1) to=(5,0) target=EMPTY
+ROUND END
+ROUND BEGIN round=7
+MOVE role=PREY from=(8,0) to=(5,3) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(8,4) to=(6,6) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(5,0) to=(4,1) target=EMPTY
+ROUND END
+ROUND BEGIN round=8
+MOVE role=PREY from=(5,3) to=(4,4) target=EMPTY
+MOVE role=PREDATOR from=(6,6) to=(5,7) target=EMPTY
+MOVE role=APEX from=(4,1) to=(3,2) target=EMPTY
+ROUND END
+ROUND BEGIN round=9
+MOVE role=PREY from=(4,4) to=(3,7) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(5,7) to=(3,7) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(3,2) to=(6,4) target=PREY
+SCORE role=APEX delta=+1
+SCORE role=PREY delta=-1
+COOLDOWN role=APEX set=3
+ROUND END
+ROUND BEGIN round=10
+MOVE role=PREY from=(6,3) to=(5,2) target=EMPTY
+MOVE role=PREDATOR from=(3,7) to=(4,7) target=EMPTY
+MOVE role=APEX from=(6,4) to=(5,3) target=EMPTY
+ROUND END
+GAME OVER PREY wins | scores: prey=4 predator=2 apex=2
+GAME START era=PAST chain=Giganotosaurus, Allosaurus, Stegosaurus, Cycads
+ROUND BEGIN round=1
+MOVE role=PREY from=(9,9) to=(7,9) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(2,9) to=(2,8) target=EMPTY
+MOVE role=APEX from=(2,1) to=(0,3) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(7,9) to=(6,8) target=EMPTY
+GAME START era=PAST chain=Giganotosaurus, Allosaurus, Stegosaurus, Cycads
+ROUND BEGIN round=1
+MOVE role=PREY from=(2,6) to=(0,4) target=EMPTY
+COOLDOWN role=PREY set=2
+GAME START era=PAST chain=T-Rex, Velociraptor, Triceratops, Ferns
+ROUND BEGIN round=1
+MOVE role=PREY from=(0,2) to=(2,0) target=EMPTY
+COOLDOWN role=PREY set=2
+GAME START era=PAST chain=Giganotosaurus, Allosaurus, Stegosaurus, Cycads
+ROUND BEGIN round=1
+MOVE role=PREY from=(7,1) to=(6,3) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(0,1) to=(2,1) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(0,7) to=(0,5) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(6,3) to=(5,4) target=EMPTY
+MOVE role=PREDATOR from=(2,1) to=(3,2) target=EMPTY
+MOVE role=APEX from=(0,5) to=(1,4) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(5,4) to=(3,6) target=FOOD
+SCORE role=PREY delta=+3
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(3,2) to=(3,3) target=EMPTY
+MOVE role=APEX from=(1,4) to=(2,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(3,6) to=(2,7) target=EMPTY
+MOVE role=PREDATOR from=(3,3) to=(5,3) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(2,3) to=(4,3) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=5
+MOVE role=PREY from=(2,7) to=(3,8) target=FOOD
+SCORE role=PREY delta=+3
+GAME START era=PAST chain=Giganotosaurus, Allosaurus, Stegosaurus, Cycads
+ROUND BEGIN round=1
+MOVE role=PREY from=(4,1) to=(2,3) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(8,0) to=(7,1) target=EMPTY
+MOVE role=APEX from=(8,5) to=(6,3) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(2,3) to=(1,4) target=EMPTY
+MOVE role=PREDATOR from=(7,1) to=(5,1) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(6,3) to=(5,2) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(1,4) to=(0,6) target=EMPTY
+COOLDOWN role=PREY set=2
+GAME START era=PAST chain=Giganotosaurus, Allosaurus, Stegosaurus, Cycads
+ROUND BEGIN round=1
+MOVE role=PREY from=(5,9) to=(3,7) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(9,5) to=(7,5) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(0,9) to=(2,7) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(3,7) to=(4,6) target=EMPTY
+MOVE role=PREDATOR from=(7,5) to=(6,4) target=EMPTY
+MOVE role=APEX from=(2,7) to=(3,6) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(4,6) to=(3,4) target=EMPTY
+COOLDOWN role=PREY set=2
+GAME START era=FUTURE chain=Leviathan, Cyborg, Robot, Energy Node
+ROUND BEGIN round=1
+MOVE role=PREY from=(1,4) to=(4,7) target=EMPTY
+COOLDOWN role=PREY set=2
+GAME START era=PAST chain=Giganotosaurus, Allosaurus, Stegosaurus, Cycads
+ROUND BEGIN round=1
+MOVE role=PREY from=(2,1) to=(0,3) target=EMPTY
+COOLDOWN role=PREY set=2
+GAME START era=PAST chain=Giganotosaurus, Allosaurus, Stegosaurus, Cycads
+ROUND BEGIN round=1
+MOVE role=PREY from=(7,8) to=(8,6) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(7,2) to=(5,2) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(0,8) to=(2,6) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(8,6) to=(7,5) target=EMPTY
+GAME START era=PAST chain=T-Rex, Velociraptor, Triceratops, Ferns
+ROUND BEGIN round=1
+MOVE role=PREY from=(5,1) to=(4,1) target=FOOD
+SCORE role=PREY delta=+3
+MOVE role=PREDATOR from=(1,1) to=(1,3) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(6,0) to=(4,0) target=EMPTY
+COOLDOWN role=APEX set=2
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(4,1) to=(3,3) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(1,3) to=(2,4) target=EMPTY
+MOVE role=APEX from=(4,0) to=(3,1) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(3,3) to=(4,4) target=EMPTY
+GAME START era=PAST chain=Giganotosaurus, Allosaurus, Stegosaurus, Cycads
+ROUND BEGIN round=1
+MOVE role=PREY from=(2,8) to=(4,6) target=EMPTY
+COOLDOWN role=PREY set=2
+GAME START era=FUTURE chain=Leviathan, Cyborg, Robot, Energy Node
+ROUND BEGIN round=1
+MOVE role=PREY from=(9,8) to=(8,7) target=EMPTY
+GAME START era=FUTURE chain=Alien Overlord, Alien Hunter, Human, Cow
+ROUND BEGIN round=1
+MOVE role=PREY from=(4,8) to=(7,6) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(2,7) to=(4,7) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(0,4) to=(3,6) target=EMPTY
+COOLDOWN role=APEX set=3
+ROUND END
+ROUND BEGIN round=2
+MOVE role=PREY from=(7,6) to=(8,7) target=EMPTY
+MOVE role=PREDATOR from=(4,7) to=(5,8) target=EMPTY
+MOVE role=APEX from=(3,6) to=(4,7) target=EMPTY
+ROUND END
+ROUND BEGIN round=3
+MOVE role=PREY from=(8,7) to=(9,8) target=FOOD
+SCORE role=PREY delta=+3
+MOVE role=PREDATOR from=(5,8) to=(7,6) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(4,7) to=(5,6) target=EMPTY
+ROUND END
+ROUND BEGIN round=4
+MOVE role=PREY from=(9,8) to=(9,5) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(7,6) to=(8,5) target=EMPTY
+MOVE role=APEX from=(5,6) to=(6,5) target=EMPTY
+ROUND END
+ROUND BEGIN round=5
+MOVE role=PREY from=(9,5) to=(9,6) target=FOOD
+SCORE role=PREY delta=+3
+MOVE role=PREDATOR from=(8,5) to=(9,6) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+MOVE role=APEX from=(6,5) to=(9,6) target=PREDATOR
+SCORE role=APEX delta=+1
+SCORE role=PREDATOR delta=-1
+COOLDOWN role=APEX set=3
+ROUND END
+ROUND BEGIN round=6
+MOVE role=PREY from=(2,4) to=(0,7) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(6,2) to=(4,4) target=EMPTY
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(9,6) to=(8,5) target=EMPTY
+ROUND END
+ROUND BEGIN round=7
+MOVE role=PREY from=(0,7) to=(1,8) target=FOOD
+SCORE role=PREY delta=+3
+MOVE role=PREDATOR from=(4,4) to=(3,5) target=EMPTY
+MOVE role=APEX from=(8,5) to=(7,4) target=EMPTY
+ROUND END
+ROUND BEGIN round=8
+MOVE role=PREY from=(1,8) to=(4,9) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(3,5) to=(3,6) target=EMPTY
+MOVE role=APEX from=(7,4) to=(6,3) target=EMPTY
+ROUND END
+ROUND BEGIN round=9
+MOVE role=PREY from=(4,9) to=(5,8) target=EMPTY
+MOVE role=PREDATOR from=(3,6) to=(5,8) target=PREY
+SCORE role=PREDATOR delta=+3
+SCORE role=PREY delta=-1
+COOLDOWN role=PREDATOR set=2
+MOVE role=APEX from=(6,3) to=(7,5) target=PREY
+SCORE role=APEX delta=+1
+SCORE role=PREY delta=-1
+COOLDOWN role=APEX set=3
+ROUND END
+ROUND BEGIN round=10
+MOVE role=PREY from=(0,6) to=(3,4) target=EMPTY
+COOLDOWN role=PREY set=2
+MOVE role=PREDATOR from=(5,8) to=(4,7) target=EMPTY
+MOVE role=APEX from=(7,5) to=(6,5) target=EMPTY
+ROUND END
+GAME OVER PREY wins | scores: prey=6 predator=5 apex=2
+GAME START era=PAST chain=Giganotosaurus, Allosaurus, Stegosaurus, Cycads
+ROUND BEGIN round=1
+MOVE role=PREY from=(2,0) to=(2,1) target=FOOD
+SCORE role=PREY delta=+3
+GAME START era=PAST chain=T-Rex, Velociraptor, Triceratops, Ferns
+ROUND BEGIN round=1
+MOVE role=PREY from=(2,3) to=(4,1) target=EMPTY
+COOLDOWN role=PREY set=2

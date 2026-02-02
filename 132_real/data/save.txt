@@ -1,0 +1,9 @@
+ERA=PAST
+GRIDSIZE=SMALL
+TOTALROUNDS=10
+TURN=PREDATOR
+ROUND=3
+APEX,name=T-Rex,score=0,cooldown=1,row=3,col=1
+PREDATOR,name=Velociraptor,score=0,cooldown=0,row=2,col=4
+PREY,name=Triceratops,score=3,cooldown=1,row=4,col=4
+FOOD,name=Ferns,row=0,col=5

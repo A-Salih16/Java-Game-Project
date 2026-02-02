@@ -1,0 +1,3 @@
+Era: Present
+Food Chain 1: Lion, Cheetah, Bunny, Grass
+Food Chain 2: Polar Bear, Wolf, Deer, Shrubs

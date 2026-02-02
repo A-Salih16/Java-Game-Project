@@ -1,0 +1,3 @@
+Era: Past
+Food Chain 1: T-Rex, Velociraptor, Triceratops, Ferns
+Food Chain 2: Giganotosaurus, Allosaurus, Stegosaurus, Cycads
